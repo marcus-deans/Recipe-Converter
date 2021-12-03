@@ -1,5 +1,5 @@
 import React, { Component, useEffect, useState } from "react";
-import Recipe from "../Recipe";
+import Recipe from "./RecipeComponent";
 
 function Main(props){
         const APP_ID = "c09c7057";
