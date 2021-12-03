@@ -5,8 +5,8 @@
 
 .search-form{
   min-height: 10vh;
-  display: flex;
   justify-content: center;
+  display: flex;
   align-items: center;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .search-button{
-  /* min-height: 4vh; */
+  min-height: 4vh;
   background: lightcoral;
   border: none;
   padding: 10px 20px;
@@ -29,3 +29,24 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.userrecipe-button{
+  width: 60%;
+  min-height: 3vh;
+  background: cyan;
+  border: none;
+  /* display: flex; */
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-heading{
+  text-align: center;
+}
+/* .app-heading{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 20vh;
+} */
